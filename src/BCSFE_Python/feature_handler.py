@@ -45,7 +45,6 @@ FEATURES: dict[str, Any] = {
         "Upload tracked bannable items (This is done automatically when saving or exiting)": save_management.server_upload.upload_metadata,
         "Load save data": save_management.load.select,
         "Convert save data to to a different version": save_management.convert.convert_save,
-        # "Manage Presets": preset_handler.preset_manager,
     },
     "Items": {
         "Cat Food": basic.basic_items.edit_cat_food,
@@ -73,7 +72,7 @@ FEATURES: dict[str, Any] = {
         "Gamatoto XP / Level": gamototo.gamatoto_xp.edit_gamatoto_xp,
         "Ototo Cat Cannon": gamototo.ototo_cat_cannon.edit_cat_cannon,
         "Gamatoto Helpers": gamototo.helpers.edit_helpers,
-        "Fix gamatoto from crashing the game":gamototo.fix_gamatoto.fix_gamatoto,
+        "Fix gamatoto from crashing the game": gamototo.fix_gamatoto.fix_gamatoto,
     },
     "Cats / Special Skills": {
         "Get / Remove Cats": {
@@ -152,7 +151,7 @@ FEATURES: dict[str, Any] = {
         "Clear Tutorial": levels.clear_tutorial.clear_tutorial,
         "Fix elsewhere error / Unban account": other.fix_elsewhere.fix_elsewhere,
         "Old Fix elsewhere error / Unban account (needs 2 save files)": fix_elsewhere_old,
-        "Fix gamatoto from crashing the game":gamototo.fix_gamatoto.fix_gamatoto,
+        "Fix gamatoto from crashing the game": gamototo.fix_gamatoto.fix_gamatoto,
     },
     "Edit Config": {
         "Edit LOCALIZATION": config_manager.edit

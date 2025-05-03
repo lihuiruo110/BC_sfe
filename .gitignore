@@ -1,0 +1,12 @@
+*SAVE_DATA*
+/dist
+__pychache__
+*.pyc
+/tests/saves/*
+.*
+*.egg*
+*BACKUP_META_DATA*
+tests.txt
+src/BCSFE_Python/files/item_tracker.json
+src/BCSFE_Python/files/game_data
+pyrightconfig.json

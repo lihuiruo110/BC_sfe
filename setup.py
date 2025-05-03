@@ -9,9 +9,9 @@ with open("src/BCSFE_Python/files/version.txt", "r", encoding="utf-8") as fh:
     version = fh.read()
 
 setuptools.setup(
-    name="battle-cats-save-editor",
+    name="mongsil-editor",
     version=version,
-    author="fieryhenry",
+    author="lihuiruo110",
     description="A battle cats save file editor",
     long_description=long_description,
     long_description_content_type="text/markdown",

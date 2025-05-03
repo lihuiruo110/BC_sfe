@@ -1,9 +1,9 @@
 """Handler for selecting and running editor features"""
 
-from typing import Any, Union
+from typing import Any
 
 from . import helper, user_input_handler, config_manager
-from BCSFE_Python.edit import basic, cats, gamototo, levels, other, save_management
+from .edit import basic, cats, gamototo, levels, other, save_management
 
 def fix_elsewhere_old(save_stats: dict[str, Any]) -> dict[str, Any]: 
     """Fix the elsewhere error using 2 save files"""
